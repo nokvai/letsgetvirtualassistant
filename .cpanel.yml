@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/letsgetv/public_html/
+    - /bin/cp -R build $DEPLOYPATH
+    
